@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <title>Trip Planner</title>
@@ -7,7 +8,49 @@
   <link rel="stylesheet" type="text/css" href="./style.css" />
   <script defer src="bundle.js"></script>
 </head>
+
 <body>
+  <header>
+    <a href='/'>Home </a>
+    <a href='about'>About</a>
+    <a href='contact'>Contact</a>
+  </header>
+  <div id="container">
   <div id="map"></div>
+  <div id="sidebar">
+    <div id="selectionBar">
+      <h2>Make a Selection</h2>
+      <h3>Hotels </h3>
+      <select name="hotels">
+        <option>xxxxxxx</option>
+      </select>
+      <button class="closeButton">X</button>
+      <h3>Restaurants </h3>
+      <select name="restaurants">
+        <option>xxxxxxx</option>
+      </select>
+      <button class="closeButton">X</button>
+      <h3>Things To Do </h3>
+      <select name="activity">
+        <option>xxxxxxx</option>
+      </select>
+      <button class="closeButton">X</button>
+    </div>
+
+    <div id="Itinerary">
+      <h2>My Itinerary</h2>
+      <ul>
+        <li>My Hotel<button class="closeButton">X</button></li>
+        
+        <li>xxxxxxxxxxxx</li>
+        <li>My Restaurants<button class="closeButton">X</button></li>
+        <li>xxxxxxxxxxxx</li>        
+        <li>My Activities<button class="closeButton">X</button></li>
+        <li>xxxxxxxxxxxx</li>
+      </ul>     
+    </div>
+  </div>
+</div>
 </body>
+
 </html>
